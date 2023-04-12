@@ -19,9 +19,14 @@ app.addEventListener("click", function(event){
   input.focus();
 })
 
+var link = "https://jerlin.netlify.com";
+var blank = "_blank";
+var kolor = "'color: 	#7FFF00;'"
+var id = "confused-btn"
 
 async function open_terminal(){
   createText("Welcome...");
+  createTextColor(`<a href= ${link} id=${id}  target=${blank} style=${kolor}> Confused ? -> Click Here </a>`)
   await delay(500);
   createText("Writing Codes - Nice But Breaking into Codes - Thats something Cool ");
   await delay(1000);
@@ -90,7 +95,7 @@ async function getInputValue(){
   }
   else if(value === "status"){
     trueValue(value);
-    createText("Nowadays, I enjoy working with cutting-edge technology like Cloud Computing, and Web3.")
+    createText("I am outside the cyclical nature of the earth earth Day and night doesn’t work on me. when I am awake is my day when I am sleeping is my night.")
   }
   else if(value === "exit"){
     trueValue(value);
@@ -180,3 +185,13 @@ function createCode(code, text){
 }
 
 open_terminal();
+
+
+
+
+// let link = "https://jerlin.netlify.com";
+// let blank = "_blank";
+
+// async function open_terminal(){z
+//   createText("Welcome...");
+//   createText("<a href= {link}  target={blank} > Confused ? -> Click Here </a>");
